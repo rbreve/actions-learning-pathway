@@ -1,7 +1,7 @@
-name: hello-world
+name: build-test-deploy
 on: push
-jobs: 
-  hello-world-job:
+jobs:
+  build:
     runs-on: ubuntu-latest
     env:
       MY_NAME: "Robsullainen"
